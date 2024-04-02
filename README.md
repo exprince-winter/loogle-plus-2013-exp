@@ -1,14 +1,21 @@
-Loogle+ Setup Guide
+# Loogle+ Setup Guide
 
-Info: I use localhost port 8090 for testing (localhost:8090).
+Note: You'll need PHP 7+ iirc
 
-Default DB Password
+# How to host? 
 
-Root
-Password
+Windows:
+1. Get XAMPP
+2. Add only PHPMyAdmin and PHP
+3. Replace htdocs with repo
+4. Start PHPMyAdmin and PHP
+5. go to 127.0.0.1/phpmyadmin and make a new db
+6. import the SQL file
+7. Change db.php with all information
+<br>
+<!-- im on mobile so hopefully that works-->
 
-Note: PHP 7 and 8 should run it, idk about other stuff.
-
+Linux:
 https://ubuntu.com/server/docs/databases-mysql (I tested it on Ubuntu 23.10 and Fedora 39, php-mysql must be installed for myphpadmin)
 
 1. Download myphpadmin and put it in the myphpadmin folder, https://www.phpmyadmin.net/
