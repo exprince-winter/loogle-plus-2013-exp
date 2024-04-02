@@ -1,4 +1,5 @@
 # Loogle+ Setup Guide
+<img src="https://github.com/exprince-winter/project-13/blob/main/loogle%20ss.png">
 
 Note: You'll need PHP 7+ iirc
 
